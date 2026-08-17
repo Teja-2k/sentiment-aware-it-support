@@ -1,0 +1,15 @@
+==================================================================
+EVALUATION  |  Sentiment-Aware IT Support Assistant
+backends: emotion=lexicon  generation=template
+==================================================================
+Scripted conversations         40
+Retrieval accuracy (top-1)     29/34  =  85.3%
+Correct abstention on ambiguity  5/6  =  83.3%
+------------------------------------------------------------------
+Escalation recall               91.3%   (tp=21 fn=2)
+Escalation precision            91.3%   (tp=21 fp=2)
+Escalation false-positive rate  11.8%   (fp=2 tn=15)
+------------------------------------------------------------------
+Mean response time                1.2 ms
+Max response time                 5.4 ms
+==================================================================

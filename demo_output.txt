@@ -1,0 +1,22 @@
+Sentiment-Aware IT Support Assistant | scripted multi-turn demonstration
+backends: emotion=lexicon  generation=template
+
+USER : How do I reset my password?
+BOT  : 1. Go to portal.company.com/reset and enter your work email address. 2. A reset link is emailed to you and expires after 15 minutes. 3. If the message does not arrive, check the spam folder before requesting another link. Does that resolve it, or should I get a person involved?
+       [grounded: Reset a forgotten password | retrieval 0.364 | frustration 0 (low)]
+
+USER : That did not work, it still will not let me in
+BOT  : I could not find a knowledge base article that covers this. Rather than guess, I would rather put you in front of someone who can help. Would you like me to prepare a handoff?
+       [grounded: None | retrieval 0.131 | frustration 0.35 (moderate)]
+       [ESCALATION SUGGESTED: LOW_CONFIDENCE]
+
+USER : This is the third time and I am completely fed up, I have a deadline
+BOT  : I could not find a knowledge base article that covers this. Rather than guess, I would rather put you in front of someone who can help. Would you like me to prepare a handoff?
+       [grounded: None | retrieval 0.096 | frustration 1.0 (high)]
+       [ESCALATION SUGGESTED: HIGH_FRUSTRATION, LOW_CONFIDENCE]
+
+USER : Actually I think I clicked a phishing link earlier
+BOT  : 1. Do not click links or reply. 2. Forward the message to phishing@company.com and delete it. 3. If credentials may already have been entered, change your password immediately and contact the security team, because this is treated as urgent. Does that resolve it, or should I get a person involved?
+       [grounded: Suspected phishing or account compromise | retrieval 0.181 | frustration 0 (low)]
+       [ESCALATION SUGGESTED: SECURITY_RISK]
+

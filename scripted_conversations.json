@@ -1,0 +1,242 @@
+[
+ {
+  "category": "neutral",
+  "message": "How do I reset my password?",
+  "expected_article": "kb-001",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "My account is locked out after too many attempts",
+  "expected_article": "kb-002",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "The VPN will not connect from home",
+  "expected_article": "kb-003",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "I cannot join the office wifi",
+  "expected_article": "kb-004",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "Outlook is not receiving mail",
+  "expected_article": "kb-005",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "How do I install approved software?",
+  "expected_article": "kb-006",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "The printer on my floor is offline",
+  "expected_article": "kb-007",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "Where do I check my ticket status?",
+  "expected_article": "kb-008",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "My laptop has been very slow lately",
+  "expected_article": "kb-009",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "I deleted a file and need it back",
+  "expected_article": "kb-011",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "My authenticator app stopped giving codes",
+  "expected_article": "kb-012",
+  "expected_escalation": false
+ },
+ {
+  "category": "neutral",
+  "message": "I need a new license for design software",
+  "expected_article": "kb-006",
+  "expected_escalation": false
+ },
+ {
+  "category": "frustration",
+  "message": "I am so frustrated, the VPN has been down all day",
+  "expected_article": "kb-003",
+  "expected_escalation": true
+ },
+ {
+  "category": "frustration",
+  "message": "This password reset process is absolutely useless",
+  "expected_article": "kb-001",
+  "expected_escalation": true
+ },
+ {
+  "category": "frustration",
+  "message": "Nothing works and I am fed up with this laptop",
+  "expected_article": "kb-009",
+  "expected_escalation": true
+ },
+ {
+  "category": "frustration",
+  "message": "THE PRINTER IS STILL BROKEN AND I HAVE A DEADLINE",
+  "expected_article": "kb-007",
+  "expected_escalation": true
+ },
+ {
+  "category": "frustration",
+  "message": "This is ridiculous, my email has not synced in hours",
+  "expected_article": "kb-005",
+  "expected_escalation": true
+ },
+ {
+  "category": "frustration",
+  "message": "I hate this wifi, it drops every ten minutes",
+  "expected_article": "kb-004",
+  "expected_escalation": true
+ },
+ {
+  "category": "frustration",
+  "message": "Terrible experience, my account keeps locking",
+  "expected_article": "kb-002",
+  "expected_escalation": true
+ },
+ {
+  "category": "frustration",
+  "message": "Annoyed that software requests take so long",
+  "expected_article": "kb-006",
+  "expected_escalation": true
+ },
+ {
+  "category": "frustration",
+  "message": "My MFA is broken again and it is unacceptable",
+  "expected_article": "kb-012",
+  "expected_escalation": true
+ },
+ {
+  "category": "frustration",
+  "message": "Awful, I lost a file and nobody has helped",
+  "expected_article": "kb-011",
+  "expected_escalation": true
+ },
+ {
+  "category": "repeat",
+  "message": "The VPN is still not connecting after I tried that",
+  "expected_article": "kb-003",
+  "expected_escalation": false
+ },
+ {
+  "category": "repeat",
+  "message": "I already reset my password and it still will not let me in",
+  "expected_article": "kb-001",
+  "expected_escalation": false
+ },
+ {
+  "category": "repeat",
+  "message": "Third time asking about this printer",
+  "expected_article": "kb-007",
+  "expected_escalation": true
+ },
+ {
+  "category": "repeat",
+  "message": "I have tried restarting twice, laptop still slow",
+  "expected_article": "kb-009",
+  "expected_escalation": false
+ },
+ {
+  "category": "repeat",
+  "message": "Email still broken after following those steps",
+  "expected_article": "kb-005",
+  "expected_escalation": false
+ },
+ {
+  "category": "repeat",
+  "message": "Still cannot get on wifi, tried forgetting the network",
+  "expected_article": "kb-004",
+  "expected_escalation": false
+ },
+ {
+  "category": "ambiguity",
+  "message": "It is not working",
+  "expected_article": null,
+  "expected_escalation": true
+ },
+ {
+  "category": "ambiguity",
+  "message": "Can you help me with something?",
+  "expected_article": null,
+  "expected_escalation": true
+ },
+ {
+  "category": "ambiguity",
+  "message": "What is the capital of France?",
+  "expected_article": null,
+  "expected_escalation": true
+ },
+ {
+  "category": "ambiguity",
+  "message": "hello",
+  "expected_article": null,
+  "expected_escalation": true
+ },
+ {
+  "category": "ambiguity",
+  "message": "asdfghjkl qwerty",
+  "expected_article": null,
+  "expected_escalation": true
+ },
+ {
+  "category": "ambiguity",
+  "message": "Tell me a joke",
+  "expected_article": null,
+  "expected_escalation": true
+ },
+ {
+  "category": "security",
+  "message": "I think I received a phishing email",
+  "expected_article": "kb-010",
+  "expected_escalation": true
+ },
+ {
+  "category": "security",
+  "message": "My account may have been hacked",
+  "expected_article": "kb-010",
+  "expected_escalation": true
+ },
+ {
+  "category": "security",
+  "message": "I clicked a suspicious link and entered my password",
+  "expected_article": "kb-010",
+  "expected_escalation": true
+ },
+ {
+  "category": "security",
+  "message": "Someone else is using my credentials, possible breach",
+  "expected_article": "kb-010",
+  "expected_escalation": true
+ },
+ {
+  "category": "security",
+  "message": "I lost all my project files, possible data loss",
+  "expected_article": "kb-011",
+  "expected_escalation": true
+ },
+ {
+  "category": "security",
+  "message": "Suspicious email asking for my bank details, looks like fraud",
+  "expected_article": "kb-010",
+  "expected_escalation": true
+ }
+]
